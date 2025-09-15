@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(250, 240, 227);
+      margin: 0;
+    }
+    .container {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      background-color: white;
+      width: 600px;
+      height: 1100px;
+      border-radius: 25px;
+      align-content: start;
+      font-family: sans-serif;
+      margin-top: 20px;
+    }
+    .photo {
+      width: 600px;
+      display: flex;
+      align-content: start;
+      justify-content: center;
+      align-items: center;
+      border-top: 25px;
+      margin: 0;
+      padding: 0;
+    }
+    .pink {
+      background-color: rgb(251, 232, 252);
+      padding: 10px;
+      width: 185px;
+      display: flex;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .table {
+      border-collapse: collapse;
+      width: 100%;
+      display: flex;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+    }
+    .text {
+      margin-left: 30px;
+      align-content: space-evenly;
+    }
+    .word {
+      background-color: rgb(251, 232, 252);
+      padding: 12px;
+      width: 525px;
+      border-left: 5px solid #d17dd1;
+    }
+
+    /*.td {
+      display: flex;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+    }*/
+  </style>
+  <body>
+    <div class="container">
+      <img class="photo" src="kyoto.png" alt="nature" />
+      <div class="text">
+        <h2>Kyoto Travel Guide</h2>
+        <p>
+          Discover the cultural heart of Japan.Kyoto is famous for its ancient
+          temples,tranquil gardens, and rich traditions.Whether you're drawn by
+          cherry blossoms,tea ceremonies,or historic districs,Kyoto promises an
+          unforgettable journey
+        </p>
+        <p class="word">
+          <strong>Best time to visit:</strong> Spring (March-May) and Autmn
+          (October-November)
+        </p>
+        <h3>Top Attractions</h3>
+        <ul>
+          <li>
+            <strong>Kinkaky-ji:</strong> The Golden Pavilion shimmering over a
+            pond.
+          </li>
+          <li>
+            <strong>Fushimi Inari Shrine:</strong> Icony thousand of red torii
+            gates.
+          </li>
+          <li>
+            <strong>Arashiyama Bamboo Grove:</strong> Scroll through towering
+            bamboo paths.
+          </li>
+          <li>
+            <strong>Gion District:</strong>Traditional streets and geisha
+            culture.
+          </li>
+        </ul>
+        <h3>Local Tips</h3>
+        <ol>
+          <li>Rent a bycycle to explore hidden alleys and temples.</li>
+          <li>
+            Try a traditional kaiseki meal for an authentic taste of Kyoto.
+          </li>
+          <li>Respect local customs when visiting shrines and temples.</li>
+        </ol>
+        <h3>Quick Info</h3>
+        <table class="table">
+          <tr>
+            <td class="pink"><strong>Language</strong></td>
+            <td class="line">Japanese</td>
+          </tr>
+          <tr>
+            <td class="pink"><strong>Currency</strong></td>
+            <td class="line">Japanese Yen</td>
+          </tr>
+          <tr>
+            <td class="pink"><strong>Transport</strong></td>
+            <td class="line">Buses,Trains,Bicycles</td>
+          </tr>
+          <tr>
+            <td class="pink"><strong>Famous Food</strong></td>
+            <td class="line">Matcha sweets,Kaiseki,Yudofu</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
